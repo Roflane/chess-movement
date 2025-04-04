@@ -360,7 +360,7 @@ int main() {
 
 			if (pawnDir > 0) { chess.clear(currentPiece->getRow(), currentPiece->getCol()); }
 			switch (pawnDir) {
-			case 1: currentPiece->move(MoveType::Queen::SFORWARD);    break;
+			case 1: currentPiece->move(MoveType::Queen::SFORWARD);     break;
 			case 2: currentPiece->move(MoveType::Queen::SBACK);        break;
 			case 3: currentPiece->move(MoveType::Queen::SLEFT);        break;
 			case 4: currentPiece->move(MoveType::Queen::SRIGHT);       break;
